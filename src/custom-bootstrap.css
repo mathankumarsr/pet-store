@@ -1,0 +1,24 @@
+:root {
+    --bs-primary: #003459;
+    --bs-secondary: #f7dba7;
+    --bs-primary-rgb: 0, 52, 89;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: #003459;
+    --bs-btn-hover-border-color: #003459;
+    --bs-btn-color: #fff;
+}
+
+.btn-outline-primary {
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: #003459;
+    --bs-btn-hover-border-color: #003459;
+    --bs-btn-color: #003459;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+}
